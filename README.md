@@ -1,29 +1,20 @@
-# Citi Bike Analytics1
-
-
-### Before You Begin
-
-* This assignment will be saved to your Tableau Public account rather than GitHub. 
-
-* If you haven't already, be sure to create a Tableau Public account [here](https://public.tableau.com/s/).
-
-* The free tier of Tableau only lets you save to their public server. This means that each time you save your file it will be uploaded to your Tableau Public profile. 
-
-* You are able to load and continue working on the same workbook.
-
-* When you are finished with your assignment, you will turn in the URL to your Tableau Public workbook along with any additional files used for your analysis. 
+# Citi Bike Analytics
+This project uses a combination of python and Tableau to generate reports for CitiBike data in the year 2020.
 
 ## Background
 
 ![Citi-Bikes](Images/citi-bike-station-bikes.jpg)
 
-Congratulations on your new job! As the new lead analyst for the [New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) Program, you are now responsible for overseeing the largest bike sharing program in the United States. In your new role, you will be expected to generate regular reports for city officials looking to publicize and improve the city program.
+CitiBike Program is the largest bike sharing program in the United States. Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the [Citi Bike Data](https://www.citibikenyc.com/system-data) webpage.
 
-Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the [Citi Bike Data](https://www.citibikenyc.com/system-data) webpage.
+## Data Aggregation and Cleaning
 
-However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have a number of questions on the program, so your first task on the job is to build a set of data reports to provide the answers.
+Due to the limited nature of Tableau Public and the large amount of data, I made the decision to only work with Jersey City data from 2020 (62.4 MB). The process went as such:
+* downloaded each Jersey City 2020 CSV file from the [Citi Bike Data](https://www.citibikenyc.com/system-data) webpage
+* combined and exported the 12 CSV files with 8 lines of code (credit to [Free Code Camp](https://www.freecodecamp.org/news/how-to-combine-multiple-csv-files-with-8-lines-of-code-265183e0854/))
+* removed anomalies (such as coordinates far outside the reach of a CitiBike or riders who claimed to be over 100 years old)
 
-## Task
+///// here is where I left off /////
 
 **Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.** 
 
@@ -93,21 +84,6 @@ Your final submission should include:
   * 1 City Official Map
   * 1 Story 
 * A text or markdown file with your analysis on the phenomenons you uncovered from the data.
-
-## Sharing Your Work
-In order to share your work, we are asking that you will save your workbook as a .twbx file so that your TA's can grade them.
-
-To save your workbook as a .twbx file, you will just need to select "Save As..." from the "File" dropdown. Then, select the .twbx option.
-
-## Assessment
-
-Your final product will be assessed on the following metrics:
-
-* Analytic Rigor
-
-* Readability
-
-* Visual Attraction
 
 
 ## Hints
