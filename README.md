@@ -1,5 +1,5 @@
 # Citi Bike Analytics
-This project uses a combination of python and Tableau to generate reports for CitiBike data in the year 2020.
+This project uses a combination of Python and Tableau to generate reports for CitiBike data in the year 2020.
 
 ## Background
 
