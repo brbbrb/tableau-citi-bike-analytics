@@ -1,5 +1,8 @@
 # Citi Bike Analytics
 This project uses a combination of Python and Tableau to generate reports for CitiBike data in the year 2020.
+<a id="raw-url" href="https://raw.githubusercontent.com/brbbrb/Tableau-CitiBike-Analytics/master/CityBike_Jersey_City_2020">Download FILE</a>
+
+
 <a href="CityBike_Jersey_City_2020.twbx" download>Click to Download</a>
 
 ## Background
