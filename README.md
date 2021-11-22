@@ -1,7 +1,7 @@
-# Citi Bike Analytics
+# Tableau Citi Bike Analytics
 This project uses a combination of Python and Tableau to generate reports for Citi Bike data in the year 2020.
 
-[Click Here to Download Full Tableau File](https://github.com/brbbrb/Tableau-CitiBike-Analytics/raw/main/CitiBike_Jersey_City_2020.twbx)
+[Click Here to Download Full Tableau File](https://github.com/brbbrb/Tableau-Citi-Bike-Analytics/raw/main/CitiBike_Jersey_City_2020.twbx)
 
 ## Background
 
@@ -19,10 +19,10 @@ Due to the limited nature of Tableau Public and the large amount of data, I made
 
 ## Tableau: Data Visualization and Analytics 
 
-After exploring the data and creating many visualizations in the Worksheets, 6 Dashboards were designed, then combined to create a Story. The whole Tableau file can be [downloaded here](https://github.com/brbbrb/Tableau-CitiBike-Analytics/raw/main/CitiBike_Jersey_City_2020.twbx), or you can just view the Tableau Story directly on [Tableau Public](https://public.tableau.com/views/CitiBike_Jersey_City_2020/CitiBikeJerseyCity2020?:language=en-US&:display_count=n&:origin=viz_share_link) (no download required). See below for a non-interactive version of the Tableau Story.
+After exploring the data and creating many visualizations in the Worksheets, 6 Dashboards were designed, then combined to create a Story. The whole Tableau file can be [downloaded here](https://github.com/brbbrb/Tableau-Citi-Bike-Analytics/raw/main/CitiBike_Jersey_City_2020.twbx), or you can just view the Tableau Story directly on [Tableau Public](https://public.tableau.com/views/CitiBike_Jersey_City_2020/CitiBikeJerseyCity2020?:language=en-US&:display_count=n&:origin=viz_share_link) (no download required). See below for a non-interactive version of the Tableau Story.
 
 ## Trips Overview
-There was Citi Bike data available from 2013 till September 2021, but I wanted to focus on 2020, as that was a very pivotal year in New York. I also decided to only use Jersey City data due to the limitations of Tableau Public. There were 336,780 trips recorded in 2020. If broken down by Gender, Males took almost 60% of all trips, with Females trailing at 25% and Unknown at 15%. The Start and End Station chart highlights the most common routes, which based on the current filters (only stations with 10,000 trips as Start and End Stations) the roundtrip to and from Liberty Light Rail seems to be the most popular. According to the chart, people generally return the CitiBikes to the same location they started, as indicated by the dark diagonal line. Based on the bar/line graph, April and December had the lowest number of trips, while April through July had the longest average trip length. Of all weekdays, the weekend had the most trips, with all other days about equal.
+There was Citi Bike data available from 2013 till September 2021, but I wanted to focus on 2020, as that was a very pivotal year in New York. I also decided to only use Jersey City data due to the limitations of Tableau Public. There were 336,780 trips recorded in 2020. If broken down by Gender, Males took almost 60% of all trips, with Females trailing at 25% and Unknown at 15%. The Start and End Station chart highlights the most common routes, which based on the current filters (only stations with 10,000 trips as Start and End Stations) the roundtrip to and from Liberty Light Rail seems to be the most popular. According to the chart, people generally return the Citi Bikes to the same location they started, as indicated by the dark diagonal line. Based on the bar/line graph, April and December had the lowest number of trips, while April through July had the longest average trip length. Of all weekdays, the weekend had the most trips, with all other days about equal.
 
 ![trips overview](Images/1_Trip_Overview.png)
 
