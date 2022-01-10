@@ -3,6 +3,8 @@ This project uses a combination of Python and Tableau to generate reports for Ci
 
 [Click Here to Download Full Tableau File](https://github.com/brbbrb/tableau-citi-bike-analytics/raw/main/CitiBike_Jersey_City_2020.twbx)
 
+[Click Here to View on Tableau Public (no download required)](https://public.tableau.com/views/CitiBike_Jersey_City_2020/CitiBikeJerseyCity2020?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 ## Background
 
 ![Citi-Bikes](Images/citi_bikes.jpeg)
